@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd public/flow && npm install && npm run build && cd ../../public/quiz && npm install && npm run build && cd ../..",
+  "buildCommand": "mkdir -p public/flow public/quiz && cd apps/flow && npm install && npm run build && cp -r dist/. ../../public/flow/ && cd ../../apps/quiz && npm install && npm run build && cp -r dist/. ../../public/quiz/",
   "outputDirectory": "public",
   "functions": {
     "api/analyse.js": { "maxDuration": 60 },
