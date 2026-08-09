@@ -26,7 +26,7 @@ const trackEvent = (eventName: string, params?: Record<string, any>) => {
 const WEBHOOK_URL = ''; 
 
 const INITIAL_STATE: QuizState = {
-  currentStep: 'intro',
+  currentStep: 'quiz',
   currentQuestionIndex: 0,
   answers: {},
   scores: {},
@@ -39,11 +39,12 @@ function App() {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
-  // Auto-start if ?start=true is in URL
+  // Toon de introductiepagina (met dev-menu) alleen als je zelf ?dev=true toevoegt aan de link.
+  // Zonder die parameter start de app altijd meteen bij vraag 1 (voor bezoekers).
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    if (params.get('start') === 'true') {
-      setState(prev => ({ ...prev, currentStep: 'quiz' }));
+    if (params.get('dev') === 'true') {
+      setState(prev => ({ ...prev, currentStep: 'intro' }));
     }
   }, []);
 
@@ -195,11 +196,9 @@ function App() {
 
       <div className="relative z-10 container mx-auto px-4 py-6 md:py-8 min-h-screen flex flex-col">
         
-        {state.currentStep === 'intro' && (
-           <header className="mb-8 flex justify-center">
-             <Logo />
-           </header>
-        )}
+        <header className="mb-8 flex justify-center">
+          <Logo />
+        </header>
 
         <main className="flex-grow flex flex-col justify-center">
           
@@ -338,7 +337,7 @@ function App() {
             <div className="max-w-xl mx-auto text-center animate-fade-in-up pt-12">
                 <div className="relative w-full max-w-sm aspect-video mx-auto mb-8 rounded-2xl overflow-hidden shadow-2xl border-4 border-white/50 bg-white">
                     <video 
-                        src="/assets/logo-animation.mp4" 
+                        src="/quiz/assets/logo-animation.mp4" 
                         className="w-full h-full object-cover"
                         autoPlay
                         muted

@@ -15,8 +15,8 @@ export const ARCHETYPES: Record<string, Archetype> = {
     ],
     advice: 'Stel je voor:\nje wordt wakker en voelt precies waar je energie vandaag naartoe wil.\n\nIn plaats van te vechten tegen een strakke planning, surf je op je eigen golven van inspiratie. Je knalt in een paar uur meer werk weg dan anderen in een dag, om daarna zonder schuldgevoel te genieten van de zon of een goed boek.\n\nJe bent niet langer de slaaf van de klok, maar de meester van je eigen flow.\n\nDit is geen chaos, dit is Timebending®.\nOntdek hoe je jouw pieken en dalen niet als zwakte, maar als jouw grootste superkracht inzet.',
     ctaLink: 'https://www.meavia.nu/liv',
-    image: '/assets/archetype-flow.png',
-    videoUrl: '/assets/video-flow.mp4',
+    image: '/quiz/assets/archetype-flow.png',
+    videoUrl: '/quiz/assets/video-flow.mp4',
     fullReport: {
       challenges: 'Je grootste valkuil is het "alles-of-niets" patroon. Je staat "aan" als een tornado, of je ligt volledig plat. Omdat de wereld consistentie beloont, voel je je vaak schuldig over je rustmomenten. Hierdoor laad je nooit écht op, en ligt uitpassing op de loer door pure energieschommelingen.',
       growthPath: 'Stop met jezelf te forceren in een lineair 9-tot-5 ritme; dat doodt jouw vuur. Jouw goud ligt in werken op jouw hartslag: intensief creëren (sprinten), gevolgd door diepgaand herstellen. Jouw groei zit in het volledig omarmen van je cyclische natuur zonder excuses.',
@@ -36,8 +36,8 @@ export const ARCHETYPES: Record<string, Archetype> = {
     ],
     advice: 'Meesterschap over jouw tijd.\n\nStel je voor:\nje vinkt je laatste to-do af en voelt... rust. Geen onrust over wat er morgen moet, maar pure tevredenheid en voldoening.\n\nNiet om wat je hebt gedaan, maar om wie je bent geweest. Je werkt met laserfocus, maar zonder de gejaagdheid. Je durft de controle los te laten en te vertrouwen op het proces.\n\nJe bent veranderd van een efficiënte machine in een bezielde leider over je eigen tijd.\n\nDit is vrijheid. Dit is Timebending®.\nOntdek hoe je van "altijd aan" naar "bewust zijn" schakelt, zonder je daadkracht te vernielen.',
     ctaLink: 'https://www.meavia.nu/liv',
-    image: '/assets/archetype-tempo.png',
-    videoUrl: '/assets/video-tempo.mp4',
+    image: '/quiz/assets/archetype-tempo.png',
+    videoUrl: '/quiz/assets/video-tempo.mp4',
     fullReport: {
       challenges: "Je identiteit hangt sterk samen met je prestaties. 'Niets doen' voelt als falen of tijdverspilling. Je bent een ster in doorpakken, maar hierdoor ren je vaak voorbij aan wat je écht voelt. Je loopt het risico op een 'bore-out' of uitputting, niet door gebrek aan tijd, maar door gebrek aan zingeving in de rust. Je grootste gevaar is dat je aan de finishlijn staat en je leeg voelt. Controle is je kooi geworden.",
       growthPath: 'Jouw volgende niveau is niet méér doen in minder tijd, maar vertragen om te versnellen. Durf de controle los te laten. Je mag leren dat de wereld doordraait, ook als jij even pauzeert. Van Human Doing naar Human Being. Jouw groei zit in het diepe besef dat je juist méér bereikt door de teugels soms te laten vieren en te vertrouwen op de stroom.',
@@ -57,8 +57,8 @@ export const ARCHETYPES: Record<string, Archetype> = {
     ],
     advice: "Stel je voor:\ndie briljante visie in je hoofd is niet langer een bron van onrust, maar een fundament van waaruit je met volledige presentie handelt.\n\nJe voelt niet langer de druk om 'daar' te komen, want je bent er energetisch al. Je bent de architect die vanuit rust de realiteit vormgeeft.\n\nDit is manifestatiekracht. Dit is Timebending®.\nOntdek hoe je de frequentie van je succes nu al belichaamt, zodat de wereld zich moeiteloos naar jouw visie vouwt.",
     ctaLink: 'https://www.meavia.nu/liv',
-    image: '/assets/archetype-visionary.png',
-    videoUrl: '/assets/video-visionary.mp4',
+    image: '/quiz/assets/archetype-visionary.png',
+    videoUrl: '/quiz/assets/video-visionary.mp4',
     fullReport: {
       challenges: 'Je grootste valkuil is misschien wel dat je ver voor de troepen uit loopt. Jij ziet het eindresultaat al zo scherp dat je er met grote stappen op af stormt, maar je vergeet anderen er in mee te nemen. Zonder die aansluiting ontstaat er onbegrip en weerstand, waardoor mensen afhaken.',
       growthPath: 'Jouw magie mag landen Jouw groei zit in het besef dat de hoogste vorm van leiderschap niet het bereiken van de finish is, maar de kwaliteit van je aanwezigheid in het nu. Jouw meesterschap ligt in het bouwen van context: de brug slaan tussen jouw verre visie en de eerste tastbare stap voor jezelf en anderen. Vanuit die verbinding ontstaat gedragen beweging zonder jagen.',
@@ -78,8 +78,8 @@ export const ARCHETYPES: Record<string, Archetype> = {
     ],
     advice: 'Stel je voor:\nde avond valt en je ploft niet uitgeblust op de bank, maar voelt nog energie bruisen.\n\nJe beweegt door je dag met een kalme regie, waarin jíj bepaalt waar je tijd heen gaat. De vrouw die luistert met volle aandacht en geeft vanuit overvloed.\n\nDit is geen verre droom, dit is Timebending®.\nOntdek hoe je de 6 sleutels inzet om niet alleen je grenzen te bewaken, maar voluit jouw mooiste leven te leven.\n\nZodat je stopt met leeglopen en de liefdevolle krachtpatser wordt die je in potentie al bent.',
     ctaLink: 'https://www.meavia.nu/liv',
-    image: '/assets/archetype-harmony.png',
-    videoUrl: '/assets/video-harmony.mp4',
+    image: '/quiz/assets/archetype-harmony.png',
+    videoUrl: '/quiz/assets/video-harmony.mp4',
     fullReport: {
       challenges: 'Jouw valkuil is niet zozeer dat je wilt pleasen, maar dat je energieën absorbeert. Je voelt de stress of het verlangen van een ander zo sterk, dat het voelt als jouw eigen urgentie. Hierdoor stap je onbewust in de actiestand voor een ander. Je raakt niet uitgeput door je eigen taken, maar door het dragen van de emotionele rugzak van je omgeving.',
       growthPath: 'Je mag leren dat jouw aanwezigheid krachtiger is als jij in je eigen centrum blijft. Het inzicht voor jou is paradoxaal: begrenzen is juist verbinden. Door selectiever te zijn in waar je \'ja\' op zegt, wordt jouw energie meer waard. Mensen hebben niets aan een uitgebluste versie van jou. Jouw groei zit in het besef dat jij de fontein bent, niet de emmer. Niet wachten tot je leeg bent, maar geven vanuit overvloed.',
