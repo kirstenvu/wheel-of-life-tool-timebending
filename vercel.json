@@ -13,6 +13,7 @@
     { "source": "/wheel-of-life", "destination": "/wheel-of-life.html" },
     { "source": "/wheel-of-business", "destination": "/wheel-of-business.html" },
     { "source": "/feedback", "destination": "/feedback.html" },
+    { "source": "/essentials", "destination": "/essentials.html" },
     { "source": "/sleutels", "destination": "/sleutels.html" },
     { "source": "/intentie", "destination": "/intentie.html" },
     { "source": "/flow", "destination": "/flow/index.html" },
